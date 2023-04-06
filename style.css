@@ -1,0 +1,103 @@
+.container{
+  width: 75% !important;
+}
+.nav{
+  /* width: 15%; */
+z-index: 999;
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.nav_lest{
+  /* width: 75%; */
+}
+.layer_Home{
+transition: all .7s;
+
+top: 100%; 
+bottom:0;
+left:0;
+right: 0;
+background-color: rgba(215, 215, 215, 0.731);
+overflow: hidden;
+}
+
+
+.Home_img_lyar:hover .layer_Home{
+  top: 0; 
+ 
+}
+
+.layer_search{
+  transition: all 1s;
+display: flex;
+top: 0; 
+bottom:0;
+left:0;
+right: 0;
+}
+  
+
+.lestS_linkes li{
+  padding-bottom: 100px;
+  transition: all .7s;
+}
+.lestS_linkes li:hover{
+color: tomato !important;
+}
+
+.lestS_linkes{
+  top: 100%;
+ 
+}
+.lestS{
+  overflow: hidden;
+}
+
+ #search{
+  display: none;
+ }
+
+ .All_Img_Home{
+  display: block;
+ 
+ }
+
+ .Icone_color{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(24, 24, 42);
+ }
+
+ .Choosecolor{
+  font-size: 11px;
+ }
+ .HomeSection , .form-control , .ReGex{
+  background-color: black ;
+ }
+
+ .Choose_color
+ {
+  
+/* width: 84%; */
+right: 100%;
+top: 15%;
+ }
+
+ .New_Colors{
+  font-size: 11px;
+  transition: all .5s;
+ }
+ .New_Colors:hover{
+  background-color: rgb(189, 137, 3) !important;
+ }
+
+ .alertPassword , .alertRePassword ,.alertAge ,.alertPhone , .alertEmail , .alertName
+ {
+  background-color: #f8d7da;
+  color: #721c24;
+ }
+
+ 
